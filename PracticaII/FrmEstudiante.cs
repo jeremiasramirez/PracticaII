@@ -31,5 +31,45 @@ namespace PracticaII
             this.estudianteTableAdapter.Fill(this.lAB01DataSet.Estudiante);
 
         }
+
+        private void matriculaTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void direccionTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombreLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombreTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void direccionLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void matriculaLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void carreraLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void carreraTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

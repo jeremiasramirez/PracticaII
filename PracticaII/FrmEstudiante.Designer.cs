@@ -214,70 +214,78 @@ namespace PracticaII
             // matriculaLabel
             // 
             matriculaLabel.AutoSize = true;
-            matriculaLabel.Location = new System.Drawing.Point(48, 67);
+            matriculaLabel.Location = new System.Drawing.Point(44, 56);
             matriculaLabel.Name = "matriculaLabel";
             matriculaLabel.Size = new System.Drawing.Size(52, 13);
             matriculaLabel.TabIndex = 1;
             matriculaLabel.Text = "matricula:";
+            matriculaLabel.Click += new System.EventHandler(this.matriculaLabel_Click);
             // 
             // matriculaTextBox
             // 
             this.matriculaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.estudianteBindingSource, "matricula", true));
-            this.matriculaTextBox.Location = new System.Drawing.Point(109, 64);
+            this.matriculaTextBox.Location = new System.Drawing.Point(105, 53);
             this.matriculaTextBox.Name = "matriculaTextBox";
-            this.matriculaTextBox.Size = new System.Drawing.Size(100, 20);
+            this.matriculaTextBox.Size = new System.Drawing.Size(153, 20);
             this.matriculaTextBox.TabIndex = 2;
+            this.matriculaTextBox.TextChanged += new System.EventHandler(this.matriculaTextBox_TextChanged);
             // 
             // nombreLabel
             // 
             nombreLabel.AutoSize = true;
-            nombreLabel.Location = new System.Drawing.Point(48, 93);
+            nombreLabel.Location = new System.Drawing.Point(44, 82);
             nombreLabel.Name = "nombreLabel";
             nombreLabel.Size = new System.Drawing.Size(45, 13);
             nombreLabel.TabIndex = 3;
             nombreLabel.Text = "nombre:";
+            nombreLabel.Click += new System.EventHandler(this.nombreLabel_Click);
             // 
             // nombreTextBox
             // 
             this.nombreTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.estudianteBindingSource, "nombre", true));
-            this.nombreTextBox.Location = new System.Drawing.Point(109, 90);
+            this.nombreTextBox.Location = new System.Drawing.Point(105, 79);
             this.nombreTextBox.Name = "nombreTextBox";
-            this.nombreTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nombreTextBox.Size = new System.Drawing.Size(153, 20);
             this.nombreTextBox.TabIndex = 4;
+            this.nombreTextBox.TextChanged += new System.EventHandler(this.nombreTextBox_TextChanged);
             // 
             // direccionLabel
             // 
             direccionLabel.AutoSize = true;
-            direccionLabel.Location = new System.Drawing.Point(48, 119);
+            direccionLabel.Location = new System.Drawing.Point(44, 108);
             direccionLabel.Name = "direccionLabel";
             direccionLabel.Size = new System.Drawing.Size(55, 13);
             direccionLabel.TabIndex = 5;
             direccionLabel.Text = "Direccion:";
+            direccionLabel.Click += new System.EventHandler(this.direccionLabel_Click);
             // 
             // direccionTextBox
             // 
             this.direccionTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.estudianteBindingSource, "Direccion", true));
-            this.direccionTextBox.Location = new System.Drawing.Point(109, 116);
+            this.direccionTextBox.Location = new System.Drawing.Point(105, 105);
             this.direccionTextBox.Name = "direccionTextBox";
-            this.direccionTextBox.Size = new System.Drawing.Size(100, 20);
+            this.direccionTextBox.Size = new System.Drawing.Size(153, 20);
             this.direccionTextBox.TabIndex = 6;
+            this.direccionTextBox.TextChanged += new System.EventHandler(this.direccionTextBox_TextChanged);
             // 
             // carreraLabel
             // 
             carreraLabel.AutoSize = true;
-            carreraLabel.Location = new System.Drawing.Point(48, 145);
+            carreraLabel.Location = new System.Drawing.Point(44, 134);
             carreraLabel.Name = "carreraLabel";
             carreraLabel.Size = new System.Drawing.Size(44, 13);
             carreraLabel.TabIndex = 7;
             carreraLabel.Text = "Carrera:";
+            carreraLabel.Click += new System.EventHandler(this.carreraLabel_Click);
             // 
             // carreraTextBox
             // 
             this.carreraTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.estudianteBindingSource, "Carrera", true));
-            this.carreraTextBox.Location = new System.Drawing.Point(109, 142);
+            this.carreraTextBox.Location = new System.Drawing.Point(105, 131);
             this.carreraTextBox.Name = "carreraTextBox";
-            this.carreraTextBox.Size = new System.Drawing.Size(100, 20);
+            this.carreraTextBox.Size = new System.Drawing.Size(153, 20);
             this.carreraTextBox.TabIndex = 8;
+            this.carreraTextBox.TextChanged += new System.EventHandler(this.carreraTextBox_TextChanged);
             // 
             // FrmEstudiante
             // 
